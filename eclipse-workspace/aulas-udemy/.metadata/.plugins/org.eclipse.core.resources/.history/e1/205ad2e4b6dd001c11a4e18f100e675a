@@ -1,0 +1,25 @@
+package udemyAulas;
+
+import java.util.Scanner;
+
+public class Exercicio1Condicionais {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		int number;
+		number = keyboard.nextInt();
+		
+		System.out.println("Digite um numero.");
+		
+		if (number >= 0) {
+			System.out.printf("O numbero %d é positivo.", number);
+		} else {
+			System.out.printf("O numero %d é negativo.", number);
+		}
+		
+		keyboard.close();
+
+	}
+
+}

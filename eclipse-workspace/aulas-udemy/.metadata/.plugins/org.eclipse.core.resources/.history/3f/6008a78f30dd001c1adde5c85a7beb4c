@@ -1,0 +1,26 @@
+package udemyAulas;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio6LP {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		double A, B, C, triangle, circle, trapeze, square, rectangle;
+		
+		A = sc.nextDouble();
+		B = sc.nextDouble();
+		C = sc.nextDouble();
+		
+		triangle = (A * C) / 2;
+		
+		System.out.println("TRIANGULO: " + triangle);
+		sc.close();
+
+	}
+
+}
